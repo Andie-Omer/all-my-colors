@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../comfortaa/Comfortaa-Regular.ttf) format('truetype')
+}
+
+body {
+    background: rgb(255, 246, 185);
+    background: linear-gradient(336deg, rgba(255, 246, 185, 1) 0%, rgba(249, 223, 192, 1) 17%, rgba(238, 174, 171, 1) 40%, rgba(194, 176, 236, 1) 50%, rgba(186, 225, 255, 1) 60%, rgba(187, 251, 214, 1) 83%, rgba(248, 246, 194, 1) 100%);
+}
+
+
+.HeroArea {
+    background-color: #FFFEF2;
+    inline-size: 1000px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: auto;
+
+}
+
+.Areatext {
+    font-family: Comfortaa;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.HeroText {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding: 20px 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+}
+
+.button {
+    width: 150px;
+    padding: 20px 40px;
+    background-color: #BA4692;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 20px;
+
+}
+
+.appScreen {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+.container1 {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.column-left1 {
+    float: left;
+    width: 33.333%;
+}
+
+.column-right1 {
+    float: right;
+    width: 33.333%;
+}
+
+.column-center1 {
+    display: inline-block;
+    width: 33.333%;
+}
+
+.column-left2 {
+    float: left;
+    width: 33.333%;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 20px;
+
+}
+
+.column-right2 {
+    float: right;
+    width: 33.333%;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 20px;
+}
+
+.column-center2 {
+    display: inline-block;
+    width: 33.333%;
+    word-wrap: break-word;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 20px;
+}
+
+.container2 {
+    margin-bottom: 100px;
+}
+
+.FooterText {
+    display: block;
+    background-color: #342448;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 24px;
+}
+
+.buttonfooter {
+    width: 250px;
+    padding: 20px 40px;
+    background-color: #BA4692;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: Comfortaa;
+    font-size: 24px;
+}
